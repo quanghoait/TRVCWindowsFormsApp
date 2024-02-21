@@ -1,6 +1,6 @@
 ﻿namespace TRVCWindowsFormsApp
 {
-    partial class Form1
+    partial class CashBook
     {
         /// <summary>
         /// Required designer variable.
@@ -28,10 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // CashBook
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(550, 279);
+            this.Name = "CashBook";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
